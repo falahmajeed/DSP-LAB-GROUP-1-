@@ -1,7 +1,7 @@
 x = [1, 2, 3, 4];
 h = [1,1,1];
 N=max(length(x),length(h));
-disp('Convolution result using matrix method:');
+disp('Convolution result using direct method:');
 y=cconv(x,h,N)
 % Plot the sequences
 n_x = 0:length(x)-1;  % Time indices for x
